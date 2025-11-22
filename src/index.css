@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Russo+One&display=swap');
+@import "tailwindcss";
+
+*{
+    font-family: "Outfit";
+    scroll-behavior: smooth;
+
+}
+body{
+    overflow-x: hidden;
+}
+::-webkit-scrollbar {
+  width: 2px;
+  height: 1px;
+}
+
+/* Track (background) */
+::-webkit-scrollbar-track {
+  background: #121212;
+  border-radius: 1px;
+}
+
+/* Thumb (scroll handle) */
+::-webkit-scrollbar-thumb {
+  background: #afafaf; /* blue */
+  border-radius: 100px;
+}
+
+/* Thumb on hover */
+
+
+@keyframes rotate {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes motion-box-1 {
+    0% {
+        transform: translate(0, 0);
+    }
+    50% {
+        transform: translate(-150px, 0px);
+    }
+    100% {
+        transform: translate(0 , 0 );
+    }
+}
+@keyframes motion-box-2 {
+    0% {
+        transform: translate(0, 0);
+    }
+    50% {
+        transform: translate(75px, -130px);
+    }
+    100% {
+        transform: translate(0 , 0 );
+    }
+}
+@keyframes motion-box-3 {
+    0% {
+        transform: translate(0, 0);
+    }
+    50% {
+        transform: translate(75px, 130px);
+    }
+    100% {
+        transform: translate(0 , 0 );
+    }
+}
+
+.motion-box-1{
+    animation: motion-box-1 5s ease-in-out infinite;
+}
+.motion-box-2{
+    animation: motion-box-2 5s ease-in-out infinite;
+}
+.motion-box-3{
+    animation: motion-box-3 5s ease-in-out infinite;
+}
+.rotate-bg{
+    animation: rotate 20s ease-in infinite;
+}
+.rotate-hero-icon{
+    animation: rotate 3s ease-in-out;
+}
