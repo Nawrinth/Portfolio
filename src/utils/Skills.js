@@ -86,8 +86,8 @@ export const ProjectsList = [
         project: "Portfolio",
         desc: "A personal portfolio website showcasing my projects, skills, and experience, built with a clean and responsive design.",
         image: Portfolio,
-        liveDemo: "",
-        github: "",
+        liveDemo: "https://nawrinth-portfolio.vercel.app/",
+        github: "https://github.com/Nawrinth/Portfolio",
         techUsed: ["ReactJs", "Framer Motion", "Tailwind CSS"],
         keyFeatures: [
             "✨ Showcasing full-stack MERN projects with clean, scalable architecture",
