@@ -1,7 +1,7 @@
 import { Award, Code, Globe, MoveUpRight, ScrollText, Share } from 'lucide-react'
 import React from 'react'
 import { motion } from 'motion/react'
-import { CertificatesList, ProjectsList } from '../utils/Skills';
+import { CertificatesList, ProjectsList, ResumeLink } from '../utils/Skills';
 
 const AboutMe = () => {
     const containerVariants = {
@@ -71,7 +71,8 @@ const AboutMe = () => {
             }}
         >
             <a
-             href="https://ik.imagekit.io/lle8t0qjk/resume.pdf?updatedAt=1754595422839"
+             href={ResumeLink}
+             target='_blank'
              download={true}
               className='flex gap-2 items-center rounded-lg px-8 py-2 bg-gradient-to-l from-violet-500 to-pink-500 h transition-all duration-300 hover:scale-105'
               >

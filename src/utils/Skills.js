@@ -46,7 +46,7 @@ export const ProjectsList = [
         project: "NeuroScan",
         desc: "AI-powered NeuroScan detects brain tumors quickly with advanced precision.",
         image: neuroScan,
-        liveDemo: "",
+        liveDemo: "https://neuro-scan-theta.vercel.app/",
         github: "https://github.com/Nawrinth/NeuroScan",
         techUsed: ["ReactJs", "Node.js", "Deep Learning", "ExpressJs", "Tailwind CSS"],
         keyFeatures: [
@@ -82,39 +82,19 @@ export const ProjectsList = [
 
     },
     {
-        slug: "humanity-os",
-        project: "Humanity Os",
-        desc: "AI-powered NeuroScan detects brain tumors quickly with advanced precision.",
-        image: HumanityOS,
-        liveDemo: "",
-        github: "",
-        techUsed: ["ReactJs", "Node.js", "Deep Learning", "ExpressJs", "Tailwind CSS"],
-        keyFeatures: [
-            "🧠 AI-powered mental health assessment that analyzes emotions using facial recognition and natural language processing.",
-            "💨 Carbon footprint calculator that helps users measure and track their lifestyle’s environmental impact accurately.",
-            "🗺️ Real-time interactive data maps displaying dynamic information about water resources and active fire incidents.",
-            "🌾 Agriculture management tools that support farmers with crop insights, productivity tracking, and resource planning.",
-            "📅 Community event management system enabling users to create, manage, and participate in local sustainability events.",
-            "🔐 Secure authentication system utilizing JWT and encrypted passwords to ensure safe user login and data protection."
-        ]
-
-
-    },
-    {
         slug: "portfolio",
         project: "Portfolio",
-        desc: "AI-powered NeuroScan detects brain tumors quickly with advanced precision.",
+        desc: "A personal portfolio website showcasing my projects, skills, and experience, built with a clean and responsive design.",
         image: Portfolio,
         liveDemo: "",
         github: "",
-        techUsed: ["ReactJs", "Node.js", "Deep Learning", "Framer Motion", "Tailwind CSS"],
+        techUsed: ["ReactJs", "Framer Motion", "Tailwind CSS"],
         keyFeatures: [
-            "🧠 AI Brain Scan Analysis – Detects glioma, meningioma, pituitary, or no tumor instantly.",
-            "🩻 Attention U-Net Segmentation – Pinpoints tumor regions with high accuracy from MRI scans.",
-            "💻 Intuitive Web App – Upload and view scan results in a clean, responsive UI.",
-            "🔗 ML-Backend Integration – Flask deep learning API connected seamlessly to Node.js backend.",
-            "🗄️ Secure File Handling – Stores uploaded MRI scans safely using Multer on the server.",
-            "🌐 Anywhere Access – Works smoothly on desktop, tablet, and mobile browsers."
+            "✨ Showcasing full-stack MERN projects with clean, scalable architecture",
+            "🤖 Highlighting machine learning models and practical AI implementations",
+            "📱 Fully responsive design compatible with all screen sizes",
+            "🎨 Smooth UI animations and interactive components",
+            "📘 In-depth project case studies outlining tech stack and problem-solving",
         ]
 
 
@@ -127,6 +107,13 @@ export const CertificatesList = [
     Infernoverse,
     Supervised,
     NeuralAndDL
-
-
 ]
+
+
+export const SocialMediaLinks = {
+    linkedin : "https://www.linkedin.com/in/nawrinth/",
+    github : "https://github.com/Nawrinth/",
+    instagram : "https://www.instagram.com/nawrinth"
+}
+
+export const ResumeLink = "https://ik.imagekit.io/lle8t0qjk/resume.pdf"

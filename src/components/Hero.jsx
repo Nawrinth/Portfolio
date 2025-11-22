@@ -3,6 +3,7 @@ import React from 'react'
 import { MdEmail } from 'react-icons/md'
 import userImg from "../assets/user-1.png"
 import { motion } from 'motion/react'
+import { SocialMediaLinks } from '../utils/Skills'
 
 
 const Hero = () => {
@@ -93,15 +94,15 @@ const Hero = () => {
                 delay:0.60,
             }}
         >
-            <a href='' className='group rounded-lg p-3 shadow hover:shadow-lg transition-shadow duration-300 shadow-violet-900 border-1 border-[#4d4d4d] bg-[#180b2e]'>
+            <a href={SocialMediaLinks.linkedin} target='_blank' className='group rounded-lg p-3 shadow hover:shadow-lg transition-shadow duration-300 shadow-violet-900 border-1 border-[#4d4d4d] bg-[#180b2e]'>
                 <Linkedin size={18} className='group-hover:rotate-30 transition-all duration-300' color='#CCCCCC'/>
             </a>
 
-            <a href='' className='group rounded-lg p-3 shadow hover:shadow-lg transition-shadow duration-300 shadow-violet-900 border-1 border-[#4d4d4d] bg-[#180b2e]'>
+            <a href={SocialMediaLinks.github} target='_blank' className='group rounded-lg p-3 shadow hover:shadow-lg transition-shadow duration-300 shadow-violet-900 border-1 border-[#4d4d4d] bg-[#180b2e]'>
                 <Github size={18} className='group-hover:rotate-30 transition-all duration-300'  color='#CCCCCC'/>
             </a>
 
-            <a href='' className='group rounded-lg p-3 shadow hover:shadow-lg transition-shadow duration-300 shadow-violet-900 border-1 border-[#4d4d4d] bg-[#180b2e]'>
+            <a href={ SocialMediaLinks.instagram} target='_blank' className='group rounded-lg p-3 shadow hover:shadow-lg transition-shadow duration-300 shadow-violet-900 border-1 border-[#4d4d4d] bg-[#180b2e]'>
                 <Instagram size={18} className='group-hover:rotate-30 transition-all duration-300'  color='#CCCCCC'/>
             </a>
         </motion.div>

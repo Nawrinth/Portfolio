@@ -25,7 +25,7 @@ const ProjectItem = ({children , project }) => {
                 {
                     project.liveDemo && 
                 <div className='flex items-center group '>
-                    <a href={project.liveDemo} className='px-4 py-2 rounded-xl text-[#f56bde] group-hover:text-[#f549d8] transition-all duration-200'>Live Demo</a>
+                    <a target='_blank' href={project.liveDemo} className='px-4 py-2 rounded-xl text-[#f56bde] group-hover:text-[#f549d8] transition-all duration-200'>Live Demo</a>
                     <SendIcon size={14} className='text-[#f56bde] mt-[3px] -ml-1 group-hover:text-[#f549d8] group-hover:-translate-y-[2px] transition-all duration-200' />
                 </div>
                 }

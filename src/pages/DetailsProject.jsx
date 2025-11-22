@@ -84,11 +84,11 @@ const DetailsProject = () => {
 
                         {/* Navigation Links */}
                         <div className="flex gap-6 mt-6">
-                            <a href={project.liveDemo} className='flex gap-2 p-4 py-3 bg-gradient-to-l from-[#26265088] to-[#382650be] rounded-lg border-1 border-gray-300/10 hover:scale-103 transition-all duration-200 hover:border-[#6e60e9] hover:from-[#2b2bb875] hover:to-[#531e979d] text-gray-300 w-40'>
+                            {project.liveDemo &&  <a href={project.liveDemo} target='_blank' className='flex gap-2 p-4 py-3 bg-gradient-to-l from-[#26265088] to-[#382650be] rounded-lg border-1 border-gray-300/10 hover:scale-103 transition-all duration-200 hover:border-[#6e60e9] hover:from-[#2b2bb875] hover:to-[#531e979d] text-gray-300 w-40'>
                                 <ExternalLink className='text-gray-300'/>
                                 Live Demo
-                            </a>
-                            <a href={project.github} className='flex gap-2 p-4 py-3 bg-gradient-to-r from-[#3c265088] to-[#50264ebe] rounded-lg border-1 border-gray-300/10 hover:scale-103 transition-all duration-200 hover:border-[#a722a0] hover:from-[#601d9e88] hover:to-[#a3229d7c] text-gray-300 w-40'>
+                            </a>}
+                            <a href={project.github} target='_blank' className='flex gap-2 p-4 py-3 bg-gradient-to-r from-[#3c265088] to-[#50264ebe] rounded-lg border-1 border-gray-300/10 hover:scale-103 transition-all duration-200 hover:border-[#a722a0] hover:from-[#601d9e88] hover:to-[#a3229d7c] text-gray-300 w-40'>
                                 <Github className='text-gray-300'/>
                                 GitHub
                             </a>

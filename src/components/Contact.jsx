@@ -5,6 +5,7 @@ import { Github, Instagram, Linkedin, MessageSquare, Send, User } from 'lucide-r
 import emailjs from 'emailjs-com';
 import { toast, Zoom } from 'react-toastify';
 import { div } from 'motion/react-client';
+import { SocialMediaLinks } from '../utils/Skills';
 
 const Contact = () => {
     const [formData, setFormData] = useState({
@@ -216,7 +217,7 @@ const Contact = () => {
                 <h1 className='text-2xl w-fit font-semibold bg-gradient-to-r from-violet-600 to-pink-600 bg-clip-text text-transparent'>Get Connected</h1>
                 <div className='space-y-4'>
                     {/* LinkedIn  */}
-                    <a href='' className='flex gap-4 group hover:bg-[#1e1e38a9] p-3 rounded-xl bg-white/4 transition-all duration-200 hover:scale-101'>
+                    <a href={SocialMediaLinks.linkedin} target='_blank' className='flex gap-4 group hover:bg-[#1e1e38a9] p-3 rounded-xl bg-white/4 transition-all duration-200 hover:scale-101'>
                         <div className='p-3 group-hover:bg-blue-600/20 rounded-xl transition-all duration-200'>
                           <Linkedin  className='text-[#1c72f3]'/>
                         </div>
@@ -227,7 +228,7 @@ const Contact = () => {
                     </a>
 
                     {/* Instagram  */}
-                    <a href='' className='flex gap-4 group hover:bg-[#e40f921c] p-3 rounded-xl bg-white/4 transition-all duration-200 hover:scale-101'>
+                    <a href={SocialMediaLinks.instagram} target='_blank' className='flex gap-4 group hover:bg-[#e40f921c] p-3 rounded-xl bg-white/4 transition-all duration-200 hover:scale-101'>
                         <div className='p-3 bg-[#e40f923d] rounded-xl transition-all duration-200'>
                           <Instagram  className='text-[#e40f92] mt-[2px]'/>
                         </div>
@@ -238,7 +239,7 @@ const Contact = () => {
                     </a>
 
                     {/* LinkedIn  */}
-                    <a href='' className='flex gap-4 group hover:bg-[#46464669] p-3 rounded-xl bg-white/4 transition-all duration-200 hover:scale-101'>
+                    <a href={SocialMediaLinks.github} target='_blank' className='flex gap-4 group hover:bg-[#46464669] p-3 rounded-xl bg-white/4 transition-all duration-200 hover:scale-101'>
                         <div className='p-3 bg-[#747474] rounded-xl transition-all duration-200'>
                           <Github  className='text-[#dddddd] mt-[1px]'/>
                         </div>
