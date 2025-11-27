@@ -116,4 +116,4 @@ export const SocialMediaLinks = {
     instagram : "https://www.instagram.com/nawrinth"
 }
 
-export const ResumeLink = "https://ik.imagekit.io/lle8t0qjk/resume.pdf"
+export const ResumeLink = "https://ik.imagekit.io/lle8t0qjk/resume.pdf?updatedAt=1764183258758"
